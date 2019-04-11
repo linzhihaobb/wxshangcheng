@@ -1,0 +1,26 @@
+/**index.wxss**/
+.topsearch{
+display: flex;
+/* justify-content: row; */
+flex-direction: row;
+  width: 300px;
+  margin: 10px auto 10px auto;
+}
+.inp{
+  width: 200px;
+  border: 1px solid black;
+  height: 30px;
+  border-radius: 5px;
+  text-indent: 1rem;
+
+}
+.btn{
+  width: 70px;
+    height: 30px;
+    margin: 0;
+    line-height: 30px;
+
+}
+.lunbo{
+  width: 100%
+}

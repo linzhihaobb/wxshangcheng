@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+<view  class='topsearch'>
+  <input placeholder='输入搜索内容' class='inp'></input><button class='btn'>搜索</button>
+</view>
+
+  <swiper autoplay='true' indicator-dots="true">
+    <swiper-item>
+      <image src="../../static/img/1.jpg" class='lunbo'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="../../static/img/2.jpg" class='lunbo'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="../../static/img/3.jpg" class='lunbo'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="../../static/img/4.jpg" class='lunbo'></image>
+    </swiper-item>
+  </swiper>
+</view>
